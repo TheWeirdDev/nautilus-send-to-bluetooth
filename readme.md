@@ -9,7 +9,7 @@ use this command to install it from AUR:
 yaourt -S nautilus-send-to-bluetooth
 ```
 
-then restart nautlis using `nautilus -q` command
+then restart nautilus using `nautilus -q` command
 
 # Install on other Distros
 make sure dependencies are installed (or alternatives in your distro):
@@ -23,4 +23,4 @@ nautilus
 
 then copy 'SendToBluetooth.py' file to '/usr/share/nautilus-python/extensions/'
 
-then restart nautlis using `nautilus -q` command
+then restart nautilus using `nautilus -q` command
