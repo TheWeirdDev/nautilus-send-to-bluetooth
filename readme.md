@@ -1,38 +1,25 @@
-# nautilus-send-to-bluetooth
+# Nautilus Send To Bluetooth
 
-Simple way to send files to bluetooth devices using nautilus file manager
+This extension adds a context menu item to nautilus that allows you to send files to your Bluetooth devices
 
 # Install on ArchLinux
+
 Use this command to install it from AUR:
 
 ```bash
-yaourt -S nautilus-send-to-bluetooth
+yas -S nautilus-send-to-bluetooth
 ```
-
-then restart nautilus using `nautilus -q` command
-
-
-# Install on Ubuntu based distros
-Install dependencies using this command:
-
-```bash
-sudo apt install python-nautilus nautilus bluez gnome-bluetooth python3
-```
-then copy 'SendToBluetooth.py' file to '/usr/share/nautilus-python/extensions/'
 
 then restart nautilus using `nautilus -q` command
 
 # Install on other distros
-Make sure dependencies are installed (or alternatives in your distro):
 
-```
-python
-python2-nautilus (or python-nautilus)
-gnome-bluetooth
-nautilus
-bluez
-```
+Make sure `python3`, `nautilus-python`, `bluez` and `blueman` are installed.
 
-then copy 'SendToBluetooth.py' file to '/usr/share/nautilus-python/extensions/'
+then copy 'SendToBluetooth.py' file to `/usr/share/nautilus-python/extensions/` or `~/.local/share/nautilus-python/extensions/`
 
 then restart nautilus using `nautilus -q` command
+
+# License
+
+This extension is licensed under GPL-3 or newer
