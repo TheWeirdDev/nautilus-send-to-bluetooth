@@ -7,7 +7,7 @@ This extension adds a context menu item to nautilus that allows you to send file
 Use this command to install it from AUR:
 
 ```bash
-yas -S nautilus-send-to-bluetooth
+yay -S nautilus-send-to-bluetooth
 ```
 
 then restart nautilus using `nautilus -q` command
