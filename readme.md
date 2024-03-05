@@ -16,7 +16,7 @@ then restart nautilus using `nautilus -q` command
 
 Make sure `python3`, `nautilus-python`, `bluez` and `blueman` are installed.
 
-then copy `SendToBluetooth.py` file to
+then [download](https://github.com/TheWeirdDev/nautilus-send-to-bluetooth/archive/refs/heads/master.zip), extract the zip file and copy the `SendToBluetooth.py` file to
 
 `/usr/share/nautilus-python/extensions/`
 
